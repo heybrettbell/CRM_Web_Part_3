@@ -1,0 +1,103 @@
+h1 {
+    font-family: arial;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin: 0;
+}
+
+body {
+    font-family: arial;
+}
+
+header {
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+.contact_count {
+  background-color: #fa8072;
+  width: 90%;
+  margin: 5px auto;
+}
+h2 {
+  padding: 15px 0 15px 5px;
+  margin: 0;
+}
+
+span.contact_number {
+    border-bottom: 5px solid lightgreen;
+}
+
+ul.navbar {
+    background-color: lightgrey;
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+}
+
+li.navbar {
+    font-family: arial;
+    font-weight: bold;
+    padding: 10px 5px;
+    font-size: 26px;
+    border-bottom: 1px solid white;
+}
+
+a.navbar {
+    text-decoration: none;
+    color: white;
+}
+
+ul.contact_list {
+
+    width: 90%;
+    margin: 0 auto;
+    list-style-type: none;
+    padding: 0;
+
+}
+
+li.contact_list {
+    background-color: #40e0d0;
+    color:black;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 20px 10px;
+}
+
+div.contact_edit {
+    background-color: #40e0d0;
+    margin-bottom: 10px;
+    padding: 0 0 10px 10px;
+}
+
+}
+a.contact_list {
+    font-size: 18px;
+}
+
+p.footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 15px 0;
+    width: 90%;
+    margin: 0 auto;
+}
+
+div.about_us {
+  width: 90%;
+  margin:0 auto;
+}
+p {
+  padding: 10px;
+}
+
+div.single_contact {
+    width: 90%;
+    margin: 0 auto;
+}
