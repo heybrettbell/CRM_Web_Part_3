@@ -10,7 +10,19 @@
     <p>Last Name: <%= @contact.last_name %></p>
     <p>Email Address: <%= @contact.email %></p>
 
+    <a href="/contacts/<%= @contact.id %>/edit">Edit</a>
+    <p>Delete a Contact</p>
+
+    <form action='/contacts/<%= @contact.id %>' method='post'>
+      <input type='hidden' name='_method' value='delete'>
+      <input type='text' name='first_name' value='<%= @contact.first_name %>'>
+      <input type='text' name='last_name' value='<%= @contact.last_name %>'>
+      <input type='text' name='email' value='<%= @contact.email %>'>
+      <input type='text' name='note' value='<%= @contact.note %>'>
+      <input type='submit' value='Delete Contact'>
+    </form>
     <a href="/contacts">Back</a>
+
     </div>
 
   </body>
